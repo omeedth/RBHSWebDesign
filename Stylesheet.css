@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, section, footer {
+	display: block;
+}
+
+h1, h2, h3 {
+	font-family: Tahoma;
+}
+
+#RoyalBlue {
+	width: 100%;
+	height: 75px;
+	background: linear-gradient(to right,#1500CA, #3B56FF);
+}
+
+#RoyalBlue h1 {
+	float: right;
+	margin: 15px 30px 0 0;
+	color: white;
+}
+
+#RoyalBlue img {
+	float: right;
+	margin-right: 15px;
+	width: 80px;
+	height: 70px;
+	margin-top: 2.5px;
+}
+
+nav {
+	width: 100%;
+	height: 30px;
+	background: #000576;
+}
+
+.FixedNav {
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	height: 50px;
+	background: #2574FF;
+	box-shadow: 0px 5px 8px #191483;
+}
+
+nav ul {
+	list-style: none;
+	width: 610px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	width: 150px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	float: left;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: 8px 20px;
+	font: bold 16px Tahoma;
+	color: white;
+	line-height: 30px;
+}
+
+nav ul li a:hover {
+	background:#2574FF;
+	
+}
+
+#Picture {
+	width: 100%;
+	height: 600px;
+	background: url("ColorfulBG.jpg");
+	background-position: center;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+#Picture h1 {
+	color: white;
+	text-align: center;
+	padding-top: 180px;
+	font-size: 90px;
+}
+
+#White {
+	padding: 40px 0;
+	width: 100%;
+	background: #5CA6FF;
+	overflow: hidden;
+}
+
+#Left {
+	width: 47%;
+	padding: 0 10px;
+	float: left;
+}
+
+#Left h2 {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#Right {
+	width: 47%;
+	padding: 0 10px;
+	float: right;
+}
+
+#Right h2 {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#LightShadeOfBlue {
+	background: #338FFE;
+	width: 97.7%;
+	padding: 40px 15px;
+	overflow: hidden;
+}
+
+#LightShadeOfBlue h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+
+#LightShadeOfBlue div {
+	margin: 0 19px;
+	text-align: center;
+}
+
+#LightShadeOfBlue #L {
+	width: 29%;
+	float: left;
+}
+
+#L h2 {
+	padding-bottom: 20px;
+}
+
+#LightShadeOfBlue #C {
+	width: 29%;
+	float: left;
+}
+
+#C ol {
+	list-style: none;
+}
+
+#C h2 {
+	padding-bottom: 20px;
+}
+
+#LightShadeOfBlue #R {
+	width: 29%;
+	float: left;
+}
+
+#R h2 {
+	padding-bottom: 20px;
+}
+
+#DarkerShadeOfBlue {
+	width: 96.2%;
+	background: #2876FF;
+	overflow: hidden;
+	padding: 40px 25px;
+}
+
+#DarkerShadeOfBlue div {
+	width: 100%;
+	height: 80%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#DarkerShadeOfBlue div h2 {
+	padding-bottom: 25px;
+}
+
+#AnotherLightShadeOfBlue {
+ 	background: #1B67EE;
+ 	padding: 40px 25px;
+ 	width: 96.2%;
+ }
+ 
+#AnotherLightShadeOfBlue div {
+ 	text-align: center;
+ 	width: 80%;
+ 	margin: 0 auto;
+ }
+ 
+#AnotherLightShadeOfBlue h2 {
+ 	padding-bottom: 25px;
+ }
+ 
+ #Space {
+ 	width: 100%;
+ 	height: 300px;
+ 	background: url("blue-polygon.jpg");
+ 	background-position: center;
+ }
+ 
+#LightGrey {
+ 	padding: 40px 25px;
+ 	width: 96.2%;
+ 	background: #1B67EE;
+ 	overflow: hidden;
+ }
+ 
+#L2 {
+ 	float: left;
+ 	width: 47%;
+ 	text-align: center;
+ }
+ 
+ #L2 p {
+ 	margin-top: 45px;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ }
+ 
+#R2 {
+ 	float: right;
+ 	width: 47%;
+ 	text-align: center;
+ }
+ 
+#R2 ul {
+ 	list-style: none;
+ }
+ 
+#R2 ul li {
+ 	
+ }
+ 
+#R2 ul li a { 
+ 	text-decoration: none;
+ 	font: bold 16px Tahoma;
+ 	color: white;
+ }
